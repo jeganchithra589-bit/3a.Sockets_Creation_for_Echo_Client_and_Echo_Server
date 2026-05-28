@@ -20,7 +20,7 @@ while True:
     s.send(msg.encode())
     print("Server > ",s.recv(1024).decode())
 ```
- # server.pt
+ # server.py
  ```
 import socket 
 s=socket.socket() 
